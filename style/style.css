@@ -1,0 +1,284 @@
+/*---------header--------*/
+
+#logoleft img{
+    transform: scaleX(-1) rotate(30deg);
+}
+
+#h2-logo{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 112, 29);
+}
+
+#logoleft img{
+    height: 30px;
+    width: auto;
+    padding-top: px;
+}
+#searchbutton{
+    font-size: 10px;
+}
+
+
+.active i{
+    color: orange;
+    font-size: 20px;
+}
+
+#form .form-control{
+    width: 100px;
+}
+
+.navbar-item:hover{
+    border: none;
+    color: orange;
+}
+.navbar-item{
+    border: none;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.05);
+}
+
+#bottom_navbar{
+    width: 100%   ;
+}
+
+
+
+
+.list_item a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.list_item a:hover{
+    color: orange;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 991px) {
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse ul li a{
+        background-color: white;
+        color: #575757;
+    }
+
+    .navbar-collapse ul li {
+        background-color: white;
+        border-bottom: 0.5px dashed rgb(226, 226, 226);
+    }
+
+    .navbar-collapse ul{
+        background-color: rgb(221, 221, 221);
+    }
+
+    .navbar-toggler{
+        transform: translateY(-13px);
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: -8px;
+        margin-right: 90px;
+        color: orange;
+    }
+
+    #navbar_upper{
+        padding-top: 5px;
+    }
+    
+}
+
+
+
+@media (max-width: 483px) {
+    .navbar_right{
+        padding-top: 20px;
+    }
+    .navbar-toggler{
+        transform: translateY(-80px);
+        font-size: 30px;
+    }
+    #navbar_upper{
+        height: 85px;
+    }
+}
+
+
+
+/*///////main content////*/
+    /*container1*/
+.collection-img img{
+    transition: all 0.3s ease;
+}
+.collection-img img:hover{
+    transform: scale(1.2);
+}
+
+.hotdeals-center .hotdeal-img{
+    height: 300px;
+    margin-bottom: -100px;;
+    
+}
+#hotdeals-center{
+    margin: -160px 0 -50px;
+    
+}
+#hotdeal-container{
+    border-top: 2px dotted rgb(199, 199, 199);
+}
+
+.hotsaleValidDate{
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+
+
+/*---------header--------*/
+
+#logoleft img{
+    transform: scaleX(-1) rotate(30deg);
+}
+
+#h2-logo{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 112, 29);
+}
+
+#logoleft img{
+    height: 30px;
+    width: auto;
+    padding-top: px;
+}
+#searchbutton{
+    font-size: 10px;
+}
+
+
+.active i{
+    color: orange;
+    font-size: 20px;
+}
+
+#form .form-control{
+    width: 100px;
+}
+
+.navbar-item:hover{
+    border: none;
+    color: orange;
+}
+.navbar-item{
+    border: none;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.05);
+}
+
+#bottom_navbar{
+    width: 100%   ;
+}
+
+
+
+
+.list_item a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.list_item a:hover{
+    color: orange;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 991px) {
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse ul li a{
+        background-color: white;
+        color: #575757;
+    }
+
+    .navbar-collapse ul li {
+        background-color: white;
+        border-bottom: 0.5px dashed rgb(226, 226, 226);
+    }
+
+    .navbar-collapse ul{
+        background-color: rgb(221, 221, 221);
+    }
+
+    .navbar-toggler{
+        transform: translateY(-13px);
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: -8px;
+        margin-right: 90px;
+        color: orange;
+    }
+
+    #navbar_upper{
+        padding-top: 5px;
+    }
+    
+}
+
+
+
+@media (max-width: 483px) {
+    .navbar_right{
+        padding-top: 20px;
+    }
+    .navbar-toggler{
+        transform: translateY(-80px);
+        font-size: 30px;
+    }
+    #navbar_upper{
+        height: 85px;
+    }
+}
+
+
+
+/*///////main content////*/
+    /*container1*/
+.collection-img img{
+    transition: all 0.3s ease;
+}
+.collection-img img:hover{
+    transform: scale(1.2);
+}
+
+.hotdeals-center .hotdeal-img{
+    height: 300px;
+    margin-bottom: -100px;;
+    
+}
+#hotdeals-center{
+    margin: -160px 0 -50px;
+    
+}
+#hotdeal-container{
+    border-top: 2px dotted rgb(199, 199, 199);
+}
+
+.hotsaleValidDate{
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+
+
