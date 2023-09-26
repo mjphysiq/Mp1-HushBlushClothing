@@ -1,7 +1,13 @@
 /*---------header--------*/
 
+<<<<<<< HEAD
 #logoleft img{
     transform: scaleX(-1) rotate(30deg);
+=======
+#logo-left img{
+    height: 35px;
+    margin-top: -15px;
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 }
 
 #h2-logo{
@@ -12,18 +18,78 @@
 #logoleft img{
     height: 30px;
     width: auto;
+<<<<<<< HEAD
     padding-top: px;
+=======
+    padding-top: 5px;
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 }
 #searchbutton{
     font-size: 10px;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    position: relative;
+}
+
+/*//scroll to top//*/
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 100%;
+}
+  
+  .scroll-container:before {
+    content: '';
+    display: block;
+    top: 90vh;
+    pointer-events: none;
+}
+  
+  .scroll-container a {
+    position: sticky;
+    top: 90vh;
+    cursor: pointer;
+    font-size: 30px;
+    color: #c2c2c2;
+}
+
+.scroll-container a:hover {
+    position: sticky;
+    top: 90vh;
+    cursor: pointer;
+    font-size: 30px;
+    color: #3f3f3f;
+}
+
+
+
+.logoleft-socmed:hover{
+    color: blue;
+}
+
+.logoleft-socmed-ins{
+    color: rgb(255, 0, 85);
+}
+
+.logoleft-socmed-ins:hover{
+    color: rgb(131, 7, 48);
+}
+
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 
 .active i{
     color: orange;
     font-size: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 #form .form-control{
     width: 100px;
 }
@@ -66,6 +132,11 @@
 }
 
 @media (max-width: 991px) {
+<<<<<<< HEAD
+=======
+
+    /*//navbar//*/
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
     .navbar-collapse ul li a{
         background-color: white;
         color: #575757;
@@ -81,20 +152,93 @@
     }
 
     .navbar-toggler{
+<<<<<<< HEAD
         transform: translateY(-13px);
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: -8px;
         margin-right: 90px;
         color: orange;
+=======
+        
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        margin-right: 130px;
+        color: orange;
+        position:sticky
+        
+    }
+
+    .navbar-toggler-icon{
+        color: #c7a390;
+        background-color: #e0e0e0;
+        border-radius: 2px;
+        position: absolute;
+        transform: translateY(-24px);
+        
+        position: absolute;
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
     }
 
     #navbar_upper{
         padding-top: 5px;
     }
+<<<<<<< HEAD
     
 }
 
+=======
+    .navbar_right{
+        padding-right: 40px ;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    /*//navbar//*/
+    .navbar-collapse ul li a{
+        background-color: white;
+        color: #575757;
+    }
+
+    .navbar-collapse ul li {
+        background-color: white;
+        border-bottom: 0.5px dashed rgb(226, 226, 226);
+    }
+
+    .navbar-collapse ul{
+        background-color: rgb(221, 221, 221);
+    }
+
+    .navbar-toggler{
+        transform: translateY(-24px);
+        display: flex;
+        flex-direction: row-reverse;
+        
+        margin-right: 100px;
+        color: orange;
+        position:sticky
+        
+    }
+
+    .navbar-toggler-icon{
+        color: #c7a390;
+        background-color: #e0e0e0;
+        border-radius: 2px;
+    }
+
+    #navbar_upper{
+        padding-top: 5px;
+    }
+    #form{
+        
+    }
+
+
+}
+
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 
 
 @media (max-width: 483px) {
@@ -108,6 +252,10 @@
     #navbar_upper{
         height: 85px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
 }
 
 
@@ -140,6 +288,7 @@
 }
 
 
+<<<<<<< HEAD
 /*---------header--------*/
 
 #logoleft img{
@@ -282,3 +431,23 @@
 }
 
 
+=======
+/*//container2 //*/
+/*//container2 //*/
+.NewRelease-title{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.like-icon{
+    color: #c7a390;
+    font-size: 16px;
+}
+.like-icon:hover{
+    color: #7c6659;
+}
+.addCart-btnlink{
+    color: rgb(255, 51, 0);
+}
+>>>>>>> 50c7a65 (modified some contents and fixes sa lapses)
