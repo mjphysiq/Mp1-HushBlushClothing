@@ -38,7 +38,7 @@ body {
 .scroll-container {
     position: absolute;
     top: 0;
-    right: 5px;
+    right: 50rem
     height: 100%;
 }
   
